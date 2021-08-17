@@ -43,7 +43,6 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .container * {
@@ -75,11 +74,11 @@ button {
   height: 25px;
   width: 25px;
   padding: 0.25rem;
-  margin-top: 5rem;
 }
 
 img {
-  height: 500px;
+  max-height: 500px;
+  max-width: 100%;
 }
 
 h1 {

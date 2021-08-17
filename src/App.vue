@@ -1,14 +1,17 @@
 <template>
   <div class="container"><home-page> </home-page></div>
+  <the-footer> </the-footer>
 </template>
 
 <script>
+import TheFooter from "./components/ui/TheFooter.vue";
 import HomePage from "./pages/HomePage.vue";
 
 export default {
   name: "App",
   components: {
     HomePage,
+    TheFooter,
   },
 };
 </script>

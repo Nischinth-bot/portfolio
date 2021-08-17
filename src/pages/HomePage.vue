@@ -4,14 +4,12 @@
       class="viewport-header"
       @selected="changeComponent"
     ></the-header>
-    <transition>
-      <component :is="getComponent()"> </component>
-    </transition>
+    <div class="body"><component :is="getComponent()"> </component></div>
   </div>
 </template>
 
 <script>
-import TheHeader from "../components/TheHeader.vue";
+import TheHeader from "../components/ui/TheHeader.vue";
 import HomeBody from "../components/HomeBody.vue";
 import SkillsBody from "../components/SkillsBody.vue";
 import ProjectsBody from "../components/ProjectsBody.vue";
@@ -57,5 +55,9 @@ video {
 .container {
   background: black;
   height: 100%;
+}
+
+.body{
+  min-height: 100vh;
 }
 </style>
