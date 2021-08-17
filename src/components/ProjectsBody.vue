@@ -1,31 +1,29 @@
 <template>
   <div class="container">
-    <ul class="all-projects">
-      <li class="project">
-        <h1>FLIPBITS</h1>
-        <p class="desc">
-          I designed and implemented an ecommerce application from scratch using
-          Vue.js, HTML5, CSS3 and Firebase. <br />
-          Features include carts, inventory management, OAuth and merchant
-          specific features.
-        </p>
-        <a href="https://github.com/Nischinth-bot/flipbits4cs" target="_blank">
-          <img class="small" src="../assets/github.png" />
-        </a>
-        <button v-if="!showMore" @click="showMore = true">Show More</button>
-        <button v-if="showMore" @click="showMore = false">Show Less</button>
-        <div v-if="showMore">
-          <ul class="icons">
-            <li class="icon">
-              <img src="@/assets/eshop1.png" />
-            </li>
-            <li class="icon">
-              <img src="@/assets/eshop2.png" />
-            </li>
-          </ul>
-        </div>
-      </li>
-    </ul>
+    <div class="project">
+      <h1>FLIPBITS</h1>
+      <p class="desc">
+        I designed and implemented an ecommerce application from scratch using
+        Vue.js, HTML5, CSS3 and Firebase. <br />
+        Features include carts, inventory management, OAuth and merchant
+        specific features.
+      </p>
+      <a href="https://github.com/Nischinth-bot/flipbits4cs" target="_blank">
+        <img class="small" src="../assets/github.png" />
+      </a>
+      <button v-if="!showMore" @click="showMore = true">Show More</button>
+      <button v-if="showMore" @click="showMore = false">Show Less</button>
+      <div v-if="showMore">
+        <ul class="icons">
+          <li class="icon">
+            <img src="@/assets/eshop1.png" />
+          </li>
+          <li class="icon">
+            <img src="@/assets/eshop2.png" />
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -48,13 +46,7 @@ export default {
 .container * {
   list-style: none;
 }
-.container .all-projects {
-  display: flex;
-  flex-direction: column;
-  margin-right: 2rem;
-}
-
-.all-projects .project {
+.container .project {
   border: 1px solid peachpuff;
   border-radius: 22px;
 }

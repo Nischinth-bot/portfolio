@@ -15,6 +15,7 @@
           </li>
         </ul>
       </li>
+      <div style="font-size: 45px">+</div>
       <li class="skillset">
         <h3>BACKEND</h3>
         <ul class="icons">
@@ -29,6 +30,7 @@
           </li>
         </ul>
       </li>
+      <div style="font-size: 45px">+</div>
       <li class="mobile">
         <h3>MOBILE</h3>
         <ul class="icons">
@@ -60,8 +62,8 @@
 
 .all-skills .skillset,
 .mobile {
-  width: 1000px;
   margin: 2rem;
+  min-width: 1000px;
   border: 1px solid peachpuff;
   border-radius: 22px;
   cursor: pointer;
@@ -69,6 +71,7 @@
 .skillset .icons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .skillset .mobile {
   display: flex;
@@ -83,5 +86,7 @@
 img {
   max-height: 200px;
   max-width: 200px;
+  min-height: 50px;
+  min-width: 50px;
 }
 </style>
