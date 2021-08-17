@@ -1,15 +1,12 @@
 <template>
   <div class="container">
-    <!-- <div class="background">
-    <video autoplay muted loop id="myVideo">
-        <source src="../assets/background.mp4" type="video/mp4" />
-      </video>
-    </div> -->
     <the-header
       class="viewport-header"
       @selected="changeComponent"
     ></the-header>
-    <component :is="getComponent()"> </component>
+    <transition>
+      <component :is="getComponent()"> </component>
+    </transition>
   </div>
 </template>
 
@@ -24,7 +21,11 @@ export default {
   data() {
     return {
       selectedComponent: "home",
-      mapping: { home: "HomeBody", skills: "SkillsBody", projects: "ProjectsBody"},
+      mapping: {
+        home: "HomeBody",
+        skills: "SkillsBody",
+        projects: "ProjectsBody",
+      },
     };
   },
   methods: {

@@ -77,11 +77,11 @@
 
 .skillset:hover,
 .mobile:hover {
-    background: rgb(26, 26, 26);
+  background: rgb(26, 26, 26);
 }
 
-img{
-    height: 200px;
-    width: 200px;
+img {
+  height: 200px;
+  width: 200px;
 }
 </style>

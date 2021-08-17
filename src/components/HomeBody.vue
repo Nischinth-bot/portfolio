@@ -26,7 +26,7 @@
 }
 
 .desc {
-    width: 500px;
-    align-self: center;
+  width: 500px;
+  align-self: center;
 }
 </style>
