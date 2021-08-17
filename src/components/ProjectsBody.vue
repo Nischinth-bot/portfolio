@@ -3,21 +3,15 @@
     <ul class="all-projects">
       <li class="project">
         <h1>FLIPBITS</h1>
-        <h2>
-          Github :
-          <a
-            href="https://github.com/Nischinth-bot/flipbits4cs"
-            target="_blank"
-          >
-            Here
-          </a>
-        </h2>
         <p class="desc">
           I designed and implemented an ecommerce application from scratch using
           Vue.js, HTML5, CSS3 and Firebase. <br />
           Features include carts, inventory management, OAuth and merchant
           specific features.
         </p>
+        <a href="https://github.com/Nischinth-bot/flipbits4cs" target="_blank">
+          <img class="small" src="../assets/github.png" />
+        </a>
         <button v-if="!showMore" @click="showMore = true">Show More</button>
         <button v-if="showMore" @click="showMore = false">Show Less</button>
         <div v-if="showMore">
@@ -77,8 +71,19 @@ button {
   cursor: pointer;
 }
 
+.small {
+  height: 25px;
+  width: 25px;
+  padding: 0.25rem;
+  margin-top: 5rem;
+}
+
 img {
-  margin: 2rem;
   height: 500px;
+}
+
+h1 {
+  border-bottom: purple 1px solid;
+  width: 25%;
 }
 </style>
