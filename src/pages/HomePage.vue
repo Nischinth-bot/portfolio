@@ -4,7 +4,11 @@
       class="viewport-header"
       @selected="changeComponent"
     ></the-header>
-    <div class="body"><component :is="getComponent()"> </component></div>
+    <div class="body">
+      <transition name="fade">
+        <component :is="getComponent()"> </component>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -57,7 +61,7 @@ video {
   height: 100%;
 }
 
-.body{
+.body {
   min-height: 100vh;
 }
 </style>
