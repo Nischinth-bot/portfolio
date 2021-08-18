@@ -15,11 +15,13 @@ export default {};
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(145, 33, 222, 1) 23%,
-    rgba(173, 72, 189, 1) 68%
+    rgba(63, 17, 77, 1) 33%,
+    rgba(42, 25, 47, 1) 90%
   );
   color: white;
   text-align: right;
   padding-right: 0.5rem;
+  margin-top: 2rem;
+  height: 200px;
 }
 </style>

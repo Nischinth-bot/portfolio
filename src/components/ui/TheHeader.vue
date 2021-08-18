@@ -2,7 +2,7 @@
   <div class="container">
     <ul class="header-items">
       <li class="item" @click="selectAndEmit('home')" :class="getClass('home')">
-        Home
+        About Me
       </li>
       <li
         class="item"

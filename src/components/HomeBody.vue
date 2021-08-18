@@ -1,7 +1,14 @@
 <template>
   <div class="container">
-    <h3>About Me</h3>
     <h2>Nischinth Murari</h2>
+    <p class="edu">
+      BS Computer Science, <i> Appalachian State University </i> - 2019 ( CS
+      Fundamentals, Calculus, Discrete Mathematics, Linear Algebra) <br />
+      MS Computer Science, <i> Appalachian State University </i> 2019 - 2021 (
+      Vue, Swift, Python, Neural Nets, Machine Learning, Dynamic Programming,
+      Algorithms)
+    </p>
+
     <p class="desc">
       I am a Software Engineer with strong problem solving and technical skills.
       I enjoy pushing myself to the limit by always learning new technologies
@@ -25,7 +32,8 @@
   justify-content: flex-start;
 }
 
-.desc {
+.desc,
+.edu {
   width: 500px;
   align-self: center;
 }

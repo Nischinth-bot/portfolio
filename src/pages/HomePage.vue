@@ -5,8 +5,10 @@
       @selected="changeComponent"
     ></the-header>
     <div class="body">
-      <transition name="fade">
-        <component :is="getComponent()"> </component>
+      <transition name="fade" mode="out-in">
+        <keep-alive>
+          <component :is="getComponent()"> </component>
+        </keep-alive>
       </transition>
     </div>
   </div>
