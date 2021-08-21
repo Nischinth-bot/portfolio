@@ -50,6 +50,8 @@ export default {
 .container .project {
   border: 1px solid peachpuff;
   border-radius: 22px;
+  width: 1000px;
+  align-self: center;
 }
 
 button {

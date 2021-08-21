@@ -2,11 +2,12 @@
   <div class="container">
     <h2>Nischinth Murari</h2>
     <p class="edu">
-      BS Computer Science, <i> Appalachian State University </i> - 2019 ( CS
-      Fundamentals, Calculus, Discrete Mathematics, Linear Algebra) <br />
-      MS Computer Science, <i> Appalachian State University </i> 2019 - 2021 (
-      Vue, Swift, Python, Neural Nets, Machine Learning, Dynamic Programming,
-      Algorithms)
+      BS Computer Science, <i> Appalachian State University </i> 2017- 2019
+      <br />( OOP, Data Structures Algorithms, Calculus, Discrete Mathematics,
+      Linear Algebra, X86 Assembly) <br /><br />
+      MS Computer Science, <i> Appalachian State University </i> 2019 - 2021
+      <br />( Vue, Swift, Python, Neural Nets, Machine Learning, Dynamic
+      Programming, Algorithms)
     </p>
 
     <p class="desc">
@@ -19,7 +20,8 @@
       wide variety of programming languages ranging from C and X86 Assembly all
       the way to cutting edge Javascript Frameworks like Vue.js and Node.js. I
       see specific technologies and stacks as means to an end. I am language
-      agnostic, but my current stack is MEVN. <br /><br />
+      agnostic and willing to learn new technologies, but my current stack is
+      MEVN. <br /><br />
       I am a huge fan of Agile!
     </p>
   </div>

@@ -1,6 +1,11 @@
 <template>
   <div class="container">
-    <div class="footer">&copy; Nischinth Murari</div>
+    <div class="footer">
+      <div class="pics">
+        <img src="../../assets/linkedin.png" />
+        <img src="../../assets/github.png" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -10,6 +15,7 @@ export default {};
 
 <style scoped>
 .footer {
+  display: flex;
   width: 100%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -19,9 +25,31 @@ export default {};
     rgba(42, 25, 47, 1) 90%
   );
   color: white;
-  text-align: right;
-  padding-right: 0.5rem;
+  padding: 0.5rem;
   margin-top: 2rem;
   height: 200px;
+  flex-direction: column;
+}
+.name {
+  margin-top: auto;
+  margin-left: auto;
+  border: 1px solid white;
+}
+
+.icons {
+  align-self: center;
+}
+
+.pics {
+  display: flex;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10rem;
+  justify-content: space-between;
+}
+.pics img {
+  height: 50px;
+  width: 50px;
 }
 </style>
